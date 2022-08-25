@@ -1,4 +1,4 @@
-def decode_character(character)
+def decode_character(char)
   codes = {
     '.-' => 'A', '-...' => 'B', '-.-.' => 'C', '-..' => 'D', '.' => 'E',
     '..-.' => 'F', '--.' => 'G', '....' => 'H', '..' => 'I', '.---' => 'J',
@@ -9,12 +9,11 @@ def decode_character(character)
     '....-' => '4', '.....' => '5', '-....' => '6', '--...' => '7',
     '---..' => '8', '----.' => '9', '-----' => '0'
   }
-  codes[character]
+  codes[char]
 end
 
 def decode_word(word)
-  result = word.split.map { |character| decode_character(character) }.join
-  result
+  word.split.map { |char| decode_character(char) }.join
 end
 
 def decode_code(code)
@@ -23,8 +22,7 @@ def decode_code(code)
   p result.chop
 end
 
-decode_code('.-') 
-decode_code('-- -.--') 
-decode_code('-- -.-- -. .- -- .') 
-decode_code('.- -... --- -..- ..-. ..- .-.. .-.. --- ..-. .-. ..- -... .. . ...') 
-
+decode_code('.-')
+decode_code('-- -.--')
+decode_code('-- -.-- -. .- -- .')
+decode_code('.- -... --- -..- ..-. ..- .-.. .-.. --- ..-. .-. ..- -... .. . ...')
