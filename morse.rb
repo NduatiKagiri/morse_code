@@ -22,3 +22,9 @@ def decode_code(code)
   code.split(/   /).each { |word| result += "#{decode_word(word.strip)} " }
   p result.chop
 end
+
+decode_code('.-') 
+decode_code('-- -.--') 
+decode_code('-- -.-- -. .- -- .') 
+decode_code('.- -... --- -..- ..-. ..- .-.. .-.. --- ..-. .-. ..- -... .. . ...') 
+
