@@ -4,23 +4,18 @@ A project to decode Morse code, a method that encodes text characters as standar
 
 ## Built With
 
-- Ruby 
+- Ruby
 
 ## Getting Started
 
 ## Clone this repository
 
-      $ git@github.com:NduatiKagiri/morse_code.git
-      $ cd morse-code
+  $ git@github.com:NduatiKagiri/morse_code.git
+  $ cd morse-code
 
 ## Run Project
-      $ Kali Rolling WSL 
-
-### Setup linters in the local env
-
-Add this line to the Gemfile
-       gem 'rubocop', '>= 1.0', '< 2.0'
-
+  $ Kali Rolling WSL
+  
 ### Install
       $ rbenv install 3.0.1
       $ rbenv global 3.0.1
@@ -30,8 +25,8 @@ Add this line to the Gemfile
 
 👤 **NduatiKagiri**
 
-- GitHub: https://github.com/NduatiKagiri 
-- Twitter: https://twitter.com/NduatiKagiri 
+- GitHub: https://github.com/NduatiKagiri
+- Twitter: https://twitter.com/NduatiKagiri
 - LinkedIn: https://linkedin.com/in/nduati-kagiri-5414a4225/
 
 👤 **Brenda Wihogora**
