@@ -29,9 +29,10 @@ Add this line to the Gemfile
 ## Authors
 
 👤 **NduatiKagiri**
-GitHub: https://github.com/NduatiKagiri 
-Twitter: https://twitter.com/NduatiKagiri 
-LinkedIn: https://linkedin.com/in/nduati-kagiri-5414a4225/
+
+- GitHub: https://github.com/NduatiKagiri 
+- Twitter: https://twitter.com/NduatiKagiri 
+- LinkedIn: https://linkedin.com/in/nduati-kagiri-5414a4225/
 
 👤 **Brenda Wihogora**
 
