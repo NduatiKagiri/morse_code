@@ -11,3 +11,8 @@ def decode_character(character)
   }
   codes[character]
 end
+
+def decode_word(word) 
+  result = word.split.map { |character| decode_character(character) }.join 
+  result 
+end 
