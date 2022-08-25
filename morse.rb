@@ -12,7 +12,13 @@ def decode_character(character)
   codes[character]
 end
 
-def decode_word(word) 
-  result = word.split.map { |character| decode_character(character) }.join 
-  result 
-end 
+def decode_word(word)
+  result = word.split.map { |character| decode_character(character) }.join
+  result
+end
+
+def decode_code(code)
+  result = ''
+  code.split(/   /).each { |word| result += "#{decode_word(word.strip)} " }
+  p result.chop
+end
